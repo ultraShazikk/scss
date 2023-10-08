@@ -1,0 +1,39 @@
+.hero {
+    width: 1280px;
+    height: 450px;
+    background-image: url("../img/amerocano.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hero__box {
+    width: 486px;
+    margin-left: 86px;
+    padding: 0;
+
+
+    .hero__heading--1 {
+        color: #FEFCF7;
+        font-family: "Fraunces";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+        margin-bottom: 32px;
+        padding-top: 134px;
+    }
+
+    .hero__text {
+        width: 445px;
+        color: #FEFCF7;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+

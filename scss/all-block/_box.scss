@@ -1,0 +1,249 @@
+.box {
+
+    margin-left: 800px;
+    .container {
+        margin: 0 auto;
+        margin-top: 168px;
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    &__box {
+        gap: 29px;
+
+        .box__span--text {
+            color: #0E8784;
+            font-family: "Fraunces";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 32px;
+            margin: 0;
+            padding: 0;
+            opacity: 0.5;
+        }
+
+
+        .box__heading--3 {
+            display: inline;
+            color: #889d9e;
+            font-family: "Fraunces";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 32px;
+            margin: 0;
+            padding: 0;
+            padding-left: 29px;
+        }
+
+        .box__span {
+            width: 255px;
+            height: 1px;
+            opacity: 0.25;
+            background-color: #83888F;
+            display: block;
+            margin: 0;
+            margin-top: 24px;
+            margin-bottom: 24px;
+            padding: 0;
+        }
+    }
+}
+
+
+.box__cont {
+    margin-left: 250px;
+}
+
+.box__cont+.box__cont {
+    margin-top: 88px;
+}
+
+
+.box__content {
+    display: flex;
+    transform: translateX(-30px);
+
+
+    .box__heading--4 {
+        color: #83888F;
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+        margin: 0;
+        margin-bottom: 56px;
+        padding: 0;
+    }
+
+    .box__img {
+        margin: 0;
+        margin-top: 18px;
+        margin-left: 80px;
+        padding: 0;
+    }
+}
+
+.box__list {
+    display: flex;
+}
+
+.box__item {
+    width: 200px;
+    border-radius: 8px;
+    background: #F4F1EB;
+    margin: 0;
+    margin-left: -70px;
+    padding: 0;
+    padding-top: 32px;
+    padding-left: 28px;
+}
+
+.box__item+.box__item {
+    margin-left: 23px;
+}
+
+.box__item:nth-child(2):active {
+    background-color: #0E8784;
+
+    .box__heading--5 {
+        color: #FFF;
+    }
+
+    .box__text--p {
+        color: #FFF;
+    }
+}
+
+.box__item:nth-child(3):hover {
+    background-color: #FDD6BA;
+}
+
+.box__heading--5 {
+    color: #333D4B;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+
+.box__heading--5:nth-child(2):active {
+    color: #FFF;
+}
+
+
+.box__text--p {
+    width: 172px;
+    color: #333D4B;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 84px;
+}
+
+
+.box__drink {
+    display: flex;
+    margin: 0;
+    margin-left: -330px;
+    padding: 0;
+}
+
+
+.box__kevin {
+    width: 730px;
+    border-radius: 10px;
+    background-color: #2C343E;
+    margin: 0;
+    margin-top: 88px;
+    margin-left: 145px;
+    padding: 0;
+}
+
+.box__text__text {
+    color: #FFF;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    opacity: 0.5037;
+    margin: 0;
+    padding: 0;
+    padding-top: 31px;
+    padding-left: 64px;
+}
+
+.box__heading--6 {
+    width: 602px;
+    color: #FFF;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    padding: 64px;
+    padding-top: 10px;
+    padding-bottom: 27px;
+}
+
+.box__span__color {
+    color: #0E8784;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.box__button {
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 694px;
+    padding: 0;
+    padding: 12px 42px;
+    border-radius: 6px;
+    background-color: #0E8784;
+    border: 1px solid #0E8784;
+    color: #FFF;
+
+
+    &:hover {
+        background-color: #66D2CF;
+        border: 1px solid #66D2CF;
+    }
+}
+
+
+
+
+.box__span--text:hover {
+    color: #83888F;
+}
+
+.box__span--text:active {
+    color: #000;
+}
+
+.box__heading--3:hover {
+    color: #62696a;
+}
+
+.box__heading--3:active {
+    color: rgb(0, 0, 0);
+   
+}
